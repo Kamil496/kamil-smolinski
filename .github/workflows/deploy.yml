@@ -5,6 +5,7 @@ on:
     branches:
       - main  # Die Pipeline wird ausgelöst, wenn Änderungen auf den 'main'-Branch gepusht werden.
       - '*'
+      - feature/*
 
 jobs:
   build:
