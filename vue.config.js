@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/kamil-smolinsk/'
+      ? '/Kamil496/kamil-smolinski/'
       : '/',
 
   outputDir: 'dist',
