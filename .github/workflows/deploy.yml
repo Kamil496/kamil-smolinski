@@ -1,0 +1,35 @@
+name: Deploy Vue.js App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Die Pipeline wird ausgelöst, wenn Änderungen auf den 'main'-Branch gepusht werden.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build the Vue.js app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        if: success()  # Deploy only if the previous steps were successful
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # Verzeichnis mit den gebauten Dateien, das bereitgestellt werden soll
