@@ -1,6 +1,5 @@
 <template>
   <Navbar/>
-  <router-view/>
   <Home msg="Welcome to Your Vue.js App"/>
   <About/>
   <Projects/>
@@ -34,5 +33,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+html {
+  scroll-behavior: smooth;
 }
 </style>

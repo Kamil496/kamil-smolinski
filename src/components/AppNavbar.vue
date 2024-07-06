@@ -1,17 +1,32 @@
 <!-- src/components/Navbar.vue -->
 
+<!--<template>-->
+<!--  <nav class="navbar">-->
+<!--    <div class="container">-->
+<!--      <router-link to="/" class="navbar-logo">Portfolio</router-link>-->
+<!--      <div class="navbar-links">-->
+<!--        <router-link to="/about" class="navbar-item">About</router-link>-->
+<!--        <router-link to="/portfolio" class="navbar-item">Portfolio</router-link>-->
+<!--        <router-link to="/contact" class="navbar-item">Contact</router-link>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </nav>-->
+<!--</template>-->
+
 <template>
   <nav class="navbar">
     <div class="container">
-      <router-link to="/" class="navbar-logo">Portfolio</router-link>
+      <a href="#home" class="navbar-logo">Portfolio</a>
       <div class="navbar-links">
-        <router-link to="/about" class="navbar-item">About</router-link>
-        <router-link to="/portfolio" class="navbar-item">Portfolio</router-link>
-        <router-link to="/contact" class="navbar-item">Contact</router-link>
+        <a href="#about" class="navbar-item">About</a>
+        <a href="#portfolio" class="navbar-item">Portfolio</a>
+        <a href="#contact" class="navbar-item">Contact</a>
       </div>
     </div>
   </nav>
 </template>
+
+
 
 <script>
 export default {

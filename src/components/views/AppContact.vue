@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact" class="contact">
     <div class="section">
       <h2>Contact Me</h2>
       <p>If you have any questions or inquiries, feel free to reach out to me.</p>

@@ -1,7 +1,7 @@
 <!-- src/views/Portfolio.vue -->
 
 <template>
-  <div class="portfolio">
+  <div id="portfolio" class="portfolio">
     <div class="section">
       <h2>Portfolio</h2>
       <div class="projects">
