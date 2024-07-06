@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/Kamil496/kamil-smolinski/tree/gh-pages/'
+      ? '/kamil-smolinski/'
       : '/',
 
   outputDir: 'dist',
