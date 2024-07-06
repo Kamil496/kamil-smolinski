@@ -3,9 +3,8 @@
 <template>
   <div id="home" class="home">
     <div class="section">
-      <h1>Welcome to My Portfolio</h1>
+      <h1>Hi, ich bin <br>Kamil</h1>
       <p>This is the home page of my portfolio.</p>
-      <p>Feel free to explore more using the navigation above!</p>
     </div>
   </div>
 </template>
