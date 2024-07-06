@@ -16,7 +16,7 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <a href="#home" class="navbar-logo">Portfolio</a>
+      <a href="#home" class="navbar-logo">Kamil</a>
       <div class="navbar-links">
         <a href="#about" class="navbar-item">About</a>
         <a href="#portfolio" class="navbar-item">Portfolio</a>
