@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="contact">
-    <div class="contact_section">
+    <div class="contact_section master_section">
       <h2>Contact Me</h2>
       <p>If you have any questions or inquiries, feel free to reach out to me.</p>
       <form @submit.prevent="handleSubmit">
