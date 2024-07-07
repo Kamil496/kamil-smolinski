@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="section about">
+  <div id="about" class="about_section about">
     <h2>About Me</h2>
   </div>
 </template>
@@ -11,16 +11,5 @@ export default {
 </script>
 
 <style scoped>
-.section {
-  height: 100vh; /* Fills the viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about {
-  background-color: #f0f0f0;
-  color: #333;
-}
+@import url('./../../css/components/AboutStyle.css');
 </style>

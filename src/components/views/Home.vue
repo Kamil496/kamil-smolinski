@@ -2,8 +2,8 @@
 
 <template>
   <div id="home" class="home">
-    <div class="section">
-      <h1>Hi, ich bin <br>Kamil</h1>
+    <div class="home_section">
+      <h1 class="uppercase">Hi, ich bin<br>Kamil</h1>
       <p>This is the home page of my portfolio.</p>
     </div>
   </div>
@@ -16,27 +16,5 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  height: 100vh; /* Höhe des gesamten Bildschirms nutzen */
-  scroll-behavior: smooth; /* Sanftes Scrollen aktivieren */
-  text-align: center;
-}
-
-.section {
-  padding: 20px;
-  height: 100%; /* Container-Höhe auf 100% setzen */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.section p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
+@import url('./../../css/components/HomeStyle.css');
 </style>

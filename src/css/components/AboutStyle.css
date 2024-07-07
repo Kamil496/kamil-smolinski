@@ -1,0 +1,15 @@
+.about_section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh; /* Mindesthöhe des Bildschirms nutzen */
+    align-items: center;
+    text-align: center;
+}
+
+.about {
+    background-color: #f0f0f0;
+    color: #333;
+}
+

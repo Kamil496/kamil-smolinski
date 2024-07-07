@@ -10,7 +10,7 @@
 import Navbar from './components/AppNavbar.vue';
 import Home from './components/views/Home.vue'
 import About from './components/views/AppAbout.vue';
-import Projects from './components/views/AppPortfolio.vue';
+import Projects from './components/views/Projects.vue';
 import Contact from './components/views/AppContact.vue'
 
 export default {
@@ -26,15 +26,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-html {
-  scroll-behavior: smooth;
-}
+@import url('./css/AppStyle.css');
 </style>
